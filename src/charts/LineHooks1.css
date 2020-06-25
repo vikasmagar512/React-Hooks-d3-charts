@@ -45,15 +45,12 @@
 span {
   margin: 20px;
 }
-svg{
-  align-self: center;
-}
 
 /* .label {
   display: inline-block;
   width: 120px;
 } */
-/* 
+
 .axis path,
     .axis line {
         fill: none;
@@ -84,11 +81,11 @@ svg{
         font-size: 14px;
     }
 
-    .tooltip {
+    .tooltipBox {
         fill: white;
         stroke: #000;
     }
 
     .tooltip-date, .tooltip-likes {
         font-weight: bold;
-    } */
+    }
