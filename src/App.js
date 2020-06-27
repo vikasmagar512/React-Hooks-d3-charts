@@ -1,4 +1,3 @@
-// import React from 'react';
 
 import React, { useState, useEffect } from "react";
 import * as d3 from "d3";
@@ -9,7 +8,7 @@ import BarHooks from "./charts/BarHooks";
 import StackedAreaHooks from "./charts/StackedAreaHooks";
 import LineHooks1 from "./charts/LineHooks1";
 import ScatterHooks from "./charts/ScatterHooks";
-
+import Table from "./Tables"
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import './App.css';
 
@@ -173,6 +172,14 @@ function App() {
     <div className="App">
       <Container>
         <Row>
+          <Col sm={12} md={12} mb={4}>
+            <Card>
+              <Table />
+            </Card>
+          </Col>
+        </Row>
+
+        <Row>
           <Col sm={12} md={6}>
             <Card>
               <Card.Header>Pie Chart</Card.Header>
@@ -189,7 +196,7 @@ function App() {
             <Card>
 
               <Card.Header>Index Chart</Card.Header>
-              <div style={{display:'flex', justifyContent:'center'}}>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <IndexHooks data={indexChartData} width={300} height={400} />
               </div>
             </Card>
