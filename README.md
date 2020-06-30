@@ -2,6 +2,8 @@
 
 ![React charts](https://github.com/vikasmagar512/React-Hooks-d3-charts/blob/master/dmpk20%20fiverr%20react%20charts.PNG)
 
+![React Table](https://github.com/vikasmagar512/React-Hooks-d3-charts/blob/master/ag%20grid%20table.PNG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
